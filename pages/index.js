@@ -41,6 +41,7 @@ export async function getStaticProps() {
         image: meetup.image,
       })),
     },
+    revalidate: 1,
   };
 }
 
